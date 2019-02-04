@@ -1,0 +1,38 @@
+- Proxy Reverso
+
+- No exemplo anterior, você ajuda o cliente em suas requisições...
+
+Já no caso do reverso, temos um auxilio dos servidores. Óbvio que irá consequentemente ajudar o cliente, mas o foco aqui é o servidor.
+
+- Firewall é um exemplo de proxy reverso, Balanceamento de Carga é outro. (pesquisar ambos)
+
+* O Firewall irá fazer um filtro de tudo que virá da internet de requisição ao servidor, filtrando os pacotes que chegam até ele.
+* O Balanceamento de Carga é bem interessante, que controla e escolhe qual servidor é o destino daquela requisição. Imagine que
+o google tem vários servidores esplhados, e esse proxy no caso vai escolher quando você digita www.google.com 
+qual deles a ser utilizado de acordo com o mecanismo usado pelo proxy (a fim de procurar melhor performance por exemplo).
+
+- CDN - CONTENT DELIVERY NETWORK
+Exemplos de uso desse conceito: CloudFlare, Akamai, Amazon CloudFront
+
+* Basicamente é um rede de proxys esplhados pelo mundo, com o intuito de facilitar o alcance das requisições em servidor.
+Imaginando um requisição a o um servidor qualquer, o servidor CDN da empresa que está mais próximo de você, vai intermediar o acesso
+e ele que vai devolver o resultado da requisição pra você, via cache do mesmo. Seria a ideia de caches (servidores) regionais.
+
+- Antes de adentrar melhor no assunto, pausa pra entender como funciona a hospedagem de sites...
+
+Recursos estáticos e recursos dinâmicos
+
+Recursos Estáricos:
+- Prontos, não precisam de processamento
+
+Ex: Imagens
+
+Recurso Dinâmicos:
+- Precisam de Processamento
+
+Ex: scripts PHP 
+
+- Usando uma CDN, um servidor web fica menos sobrecarregado. Você pode usar um servidor proxy, pra guardar um recurso e entregar ao Cliente.
+Isso torna a coisa mais dinâmica, e o servidor web fica mais folgado, tornando mais otimizado. Não é muito diferente do proxy direto, mas nesse caso
+é algo que fica mais próximo ao servidor web.
+

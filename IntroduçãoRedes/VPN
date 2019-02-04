@@ -1,0 +1,20 @@
+Imaginemos que exista duas redes de uma mesma empresa, e que elas estejam distantes fisicamente. Uma em cada estado.
+
+Fisicamente, você iria ter um custo muito alto pois teria que contratar um serviço de rede privada dessas, que custaria um absurdo.
+O ideal, seria fazer uma conexão via internet. Só que a internet é pública, e não tem controle e segurança como deveria.
+Então, para proteger e criar uma conexão segura para esse fim, VPN é necessário
+
+VPN - É um recurso usado para proteger o trafêgo de informações de maneira segura (criptografada).
+
+Exemplo de uso de VPN diário:
+Imagina que algum funcionário novo entrou em uma empresa. Agora, ele precisa se cadastrar na rede local dele.
+Após alguns dias, ele vai a campo, e longe da empresa ele precisa se conectar a rede. Ele faz isso, usando uma VPN.
+É estabelicido uma conexão VPN. Tudo que tiver disponível de recursos, ele vai ter acesso remotamente via VPN atráves da internet.
+
+Extra: Há um conceito errado de VPN, que é confudido com servidor de proxy VPN. Sevidor de proxy VPN é usado para mascarar a origem (cliente)
+ao acessar servidores de proxys pela rede. É apenas uma junção de dois conceitos, que tornou equivocada a popularização da VPN.
+No mais, VPN é a forma segura usada para criptografar informações trafêgadas entre dispositivos que estão longe fisicamente da rede
+e precisar ter acesso ao recursos da mesma.
+
+
+

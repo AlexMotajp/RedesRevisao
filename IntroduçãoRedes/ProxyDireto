@@ -1,0 +1,9 @@
+- Basciamente é pareceido como um cache
+
+O cache é uma unidade de disco usada para facilitar o processamento. 
+Imagine uma requisição web, que é feita constantemente a um site specífico. Um cache será criado, para facilitar novamente a busca desse
+mesmo.
+
+Então, em uma rede local, você cria sevidor proxy, que será usado pra encaminhar os usuários(host's) dessa rede, servindo como
+intermediário. Quanto mais vezes um tipo de requisição é feita, mais ele ajuda com seu "cache" para os host's interligados a essa rede.
+
