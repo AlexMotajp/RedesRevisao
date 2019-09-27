@@ -1,0 +1,15 @@
+# Rede Cliente/Servidor
+
+- Diferente do modelo de serviço via terminal, aqui não há a ideia de um centralizdor para processamento e terminais burros.
+- Nesse sentido, da-se a ideia de vários dispositivos, cada qual com sua capacidade de processamento e armazenamento.
+
+# Cliente/Servidor
+
+- O servidor é todo aquele dispositivo (normalmente um computador) que disponibiliza recursos em rede. Exemplo disso, é um servidor web, que a pedido de um cliente, ou seja,
+um outro dispositivo, pede para o servidor para acessar uma página principal. O servidor web então, vê que a requisição é para uma página principal, então o envia
+para o cliente. 
+
+ - O Cliente, diante do que já foi dito, é um dispositivo que requisita recursos para o servidor. Um exemplo interessante, fugindo do mais comum como um computador, poderia ser 
+ uma smartTV pedindo para acessar um vídeo no youtube. O servidor então seria do Youtube, que receberia a requisção a SmartTV.
+
+ 

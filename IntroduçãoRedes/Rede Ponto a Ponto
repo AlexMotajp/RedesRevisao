@@ -1,0 +1,7 @@
+# Redes Ponto a Ponto
+ 
+ - As vezes, não é necessário criar uma rede CLiente/Servidor. Dado o fato de a rede Cliente/Servidor demanda de uma miníma estrutura que vai demandar gastos, ela também
+ pode ser descenssária paras demandas de trabalhos em dependendo do contexto. Então, a rede ponto a ponto aparece como uma solução simples.
+
+ - Nesse sentido, os dispositivos conectados a essa rede, hora serão servidores e hora serão clientes. Exemplo de usabilidade, seria para conectar uma impressora que esteja ligada
+ a uma das máquinas da empresa ou, por exemplo, troca de arquivos. Ou seja, nesse tipo de rede, não existe aquilo que chamamos de "serviço de diretório". Não há centralidade.

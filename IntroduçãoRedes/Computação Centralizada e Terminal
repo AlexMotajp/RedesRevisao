@@ -1,0 +1,13 @@
+# Computação centralizada ou Serviço via Terminal
+
+# Computação Centralizado
+- Antigamente quando um computador era bastante rudimentar e seu custo era alto, era comum ter um processador central (uma máquina central) que exercia o papel de processador
+todas as demandas necesárias. Então, as pessoas se utilizavam de terminais burros (como é dado o nome) para acessar essa máquina central. Essa máquina central
+hoje é conhecida como Mainframe.
+
+ # Alguns Serviços de terminal:
+ - Telnet é um tipo de serviço de terminal sem criptografia. Recomendado que não seja usado, apenas para aprendizado
+
+ - SSH é o mais recomendado, pois tem criptografia, ou seja, é mais segurado.
+
+ 
