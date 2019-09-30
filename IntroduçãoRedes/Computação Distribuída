@@ -1,0 +1,14 @@
+# A computação distribuída ou cooperativa (CLuster e Grade)
+
+- Computação Distribuída (Cluster) É uma forma de processamento distribuída. Basicamente, os servidores, processadores
+trabalharão em paralelo. Nesse caso, as unidades de processamento pertencem a mesma 
+empresa.
+
+- Já a Computação em Grade, usa-se o mesmo conceito, a diferença é que nesse caso, não 
+teremos uma mesma empresa tomando conta das unidades. As unidades de processamento são 
+espelhadas, muitas vezes sendo públicas e pertencendo a usuários comuns.
+
+Exemplo: Temos o Seti Home, que é um software busca de vida fora da terra. Nele, quando
+um bloco de dados é baixado, o servidor central delega a outra máquina se ela estive ociosa
+e retornando quando o processo tiver terminado.
+

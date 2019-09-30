@@ -1,9 +1,24 @@
-- Basciamente é pareceido como um cache
+- ProxyDireto
 
-O cache é uma unidade de disco usada para facilitar o processamento. 
-Imagine uma requisição web, que é feita constantemente a um site specífico. Um cache será criado, para facilitar novamente a busca desse
-mesmo.
+ * Proxy de cache, é um tipo de servidor dispoto a servir de intermediário para agilizar as requisições. 
+Imagine uma requisição web, que é feita constantemente a um site específico. Um cache será criado, 
+para facilitar novamente a busca desse mesmo. 
 
-Então, em uma rede local, você cria sevidor proxy, que será usado pra encaminhar os usuários(host's) dessa rede, servindo como
-intermediário. Quanto mais vezes um tipo de requisição é feita, mais ele ajuda com seu "cache" para os host's interligados a essa rede.
+Então, em uma rede local, você cria sevidor proxy, que será usado pra encaminhar os usuários
+(host's) dessa rede, servindo como intermediário. Quanto mais vezes um tipo de requisição é feita, 
+mais ele ajuda com seu "cache" para os host's interligados a essa rede.
 
+* Outro exemplo é um servidor proxy que sirva para camuflar seu ip de internet, como uma máscara. 
+Isso possibilitaria acessar redes discretamente. Um exemplo, seria você tentar acessar um site
+americano e não conseguir, devido a uma restrição. Então, você usaria um proxy para reedirecionar
+você para um servidor intermediário e depois, subsequentemente, direcionando o site americano
+com um ip diferente. 
+
+# Um problema dessa segunda forma, é que pode ser perigoso por questão de segurança. Seu ip acaba
+sendo passado pra um servidor proxy que terá acesso aos protocolos que irão passar por ele.
+
+Outro porém, é a perda de velocidade que se tem quando isso acontece. Como você está sendo redire-
+cionado pra um servidor intermediário distante, acaba tomando um percurso maior. 
+
+- Portanto, seria mais interessante usar um servidor proxy. Sendo mais restrito e dando maior se-
+gurança; e sendo mais agil por ser um servidor cache. 

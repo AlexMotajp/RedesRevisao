@@ -1,6 +1,6 @@
 - Proxy Reverso
 
-- No exemplo anterior, você ajuda o cliente em suas requisições...
+- No exemplo anterior, proxy ajuda o cliente em suas requisições...
 
 Já no caso do reverso, temos um auxilio dos servidores. Óbvio que irá consequentemente ajudar o cliente, mas o foco aqui é o servidor.
 
@@ -22,7 +22,7 @@ e ele que vai devolver o resultado da requisição pra você, via cache do mesmo
 
 Recursos estáticos e recursos dinâmicos
 
-Recursos Estáricos:
+Recursos Estáticos:
 - Prontos, não precisam de processamento
 
 Ex: Imagens

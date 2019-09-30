@@ -1,0 +1,27 @@
+* Bases Númericas
+
+- Nos usamos uma base númerica na casa decimal, a base é 10. 
+
+* Os pesos na base 10:
+
+ - O número 4731 pode ser lído da seguinte forma:
+ Sendo o número 1 na casa das unidades valendo 1 x 1 = 1
+ Sendo o número 3 na casa das dezenas valendo 3 x 10 = 30
+ Sendo o número 7 na casa das centenas valendo 7 x 100 = 700
+ Sendo o número 4 na casa das milhares valendo 4 x 1000 = 4000
+
+- A primeira casa, sendo 1, tem peso 0.
+A Segunda casa, sendo 3, tem peso 1.
+A Terceira casa, sendo 7, tem peso 2.
+A Quarta casa, sendo 4, tem peso 3.
+
+* Na Base 2
+
+- A primeira coisa a ser notado, é a quantidade de números que teremos que usar pra significar um 
+valor.
+
+Exemplo: 
+        Decimal:    8421
+                    
+        Binário:    1100
+        continua no caderno...
