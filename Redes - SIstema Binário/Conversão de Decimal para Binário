@@ -1,0 +1,34 @@
+# Convertendo de Decimal para binário
+
+- Primeiro exemplo é 512. O número 512 é um número inteiro binário, isso significa que ele é uma potência de 2.
+
+Nesse, é muito simples dizer qual valor em binário ele é, pois dado o fato que ele é uma potência de 2, quando acharmos na base potencial, iremos
+encontra-lo. 
+
+                EX: 512 256 128 64 32 16 8 4 2 1
+                    1   0   0   0  0  0  0 0 0 0
+
+                    Perce que enumerando as potencias de 2, da direita pra esquerda, você acabou encontrando o 512. Isso simplifica tudo, demonstrando
+                    que o único bit, na posição da potência 512, é que está ligado.
+
+- Um exemplo diferente, peguemos o número 79. Nesse caso, você continuar colocando as potência da direita para esquerda, só quando chegar em número que seja
+maior que 79, você para. Depois, você desconsidera esse número em que você parou, e o último que deu à esquerda, vai estar ativado, bit 1. Esse valor ativado
+ vai subtraído do 79. O valor do resultado, terá que ser colocado na posição da potência mais próxima dele. Se sobrar ainda mais algum valor, continue fazendo 
+ similar ao ultimo processo.   
+
+                EX: 64 32 16 8 4 2 1               
+                    1  0  0  1 1 1 1
+
+                                             79 - 64 = 15
+                                             15 - 8 = 7
+                                             7 - 4 = 3
+                                             3 - 2 = 1
+                
+                O valor 79 convertido para binário é 1001111
+
+                Pratique no cardeno para memorizar
+
+
+                                                
+
+

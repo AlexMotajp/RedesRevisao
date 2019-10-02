@@ -1,0 +1,7 @@
+# Rede Front-End e Back-End
+
+- Diferentemente do CLiente/Servidor, o modelo de Front-End/Back-End se apoia na ideia de que o cliente irá pedir um requisção, mas os servidores irão atuar em conjunto para
+transmitir a requisição completa do usuário. Nesse sentido, o cliente iria fazer uma requisição a um servidor Front-End, que imediatamente faria outra requisição a um servidor
+Back-End, retornando para o usuário o recurso completo. Exemplo disso, a gente encontra na internet. Quando se faz um pedido para acessar um site, via browser, você pede a um
+servidor web que seria um Fronte-End nesse caso, pedindo a um servidor de banco de dados que seria um back-end, que retornaria os dados necessários pra preencher a página solicitada.
+

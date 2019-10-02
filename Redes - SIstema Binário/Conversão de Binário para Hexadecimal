@@ -1,0 +1,35 @@
+# Conversão de Hexadecimal
+
+- Cada Algarismo de Hexadecimal repersenta um número de quatro bits. Pois, com 4 bits, podemos representar 16 números.
+
+ Vamos converter Binário pra Hexadecimal
+
+ (Use a tabela do caderno para fazer a conversão)
+
+  O mais complicado, é decorar os valores binários. Você pode se utilizar de um metódo, veja:
+
+  - Converta o binário primeiro para decimal, e após isso para hexadecimal:
+    
+    EX: 
+            8 4 2 1
+            1 1 0 0 ?
+
+            8 + 4 = 12 decimal 
+            em Hexadecimal sendo C.
+
+De 0 a 9, os valores decimais são iguais ao hexadecimais. Depois é que muda pra letra, começando o 10 no A.
+Nesse caso, o valor decimal é 12 sendo Hexadecimal uma letra, a letra C.  
+
+      outro  Ex:
+                 8 4 2 1
+                 0 1 0 1 
+
+                 4 + 1 = 5
+
+                 Logo, o valor Hexadecimal é 5 também.
+
+Exemplo com número maior, separe em blocos de 4 digitos, indo da direita para esquerda. Se o último bloco não fechar em quatro algarismos, completo com zeros
+à esquerda.
+                        
+
+                Pratique no caderno.

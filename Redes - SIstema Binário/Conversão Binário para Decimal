@@ -1,0 +1,32 @@
+# Convertendo Conversão de Binário para Decimal
+
+
+  -  Um número na da casa Binária: 10101100 (contendo 8 digitos)
+
+  Primeiro passo para converter, é numerar cada algarismo da direita para esquerda na potência de 2.
+  
+  Exemplificando:
+    
+Potências de 2:     128  64 32 16  8  4 2 1
+Número Binário:     1    0  1  0   1  1 0 0   
+
+  - Cada algarismo desse equivale a 1 bit. Ou seja, nesse caso os 8 bits equivalem a 1 byte.
+
+- O próximo passo, é pegar os "1's" da esquerda pra direita, somando os valores de potência.
+
+Nesse exemplo, ficaria da seguinte forma:
+ 
+    128 + 32 + 8 + 4 = 172
+
+    * 172 então, é a representação do número binário 10101100 em decimal
+
+Tente agora, converter esse número binário com 12 casa:
+
+    - 110000010111
+
+    Então vai ficar:
+
+    2048 + 1024 + 16 + 4 + 2 + 1 = 3095
+
+    Pratique com mais exemplos no cardeno para memorizar.
+
