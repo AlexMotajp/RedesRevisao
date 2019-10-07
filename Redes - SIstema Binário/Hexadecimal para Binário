@@ -1,0 +1,32 @@
+# Hexadecimal para Binário
+
+A duas formas de notação de Hexadecimal, exemplos:
+
+0x4A3 = (4A3)16 (o 16, é a base, fica embaixo a direita).
+
+Você pode usar a tabela para identificar qual valor em binário esse hexadecimal representa... (Olhar no caderno a tabela)
+
+Nesse caso, o 4 = 0100
+              A = 1010
+              3 = 0011
+
+No fim, o binário ficaria: 0100 1010 0011
+
+Caso você não tenha uma tabela, reserve 4 bits para cada algarismo do Hexadecimal (nesse caso, o 4, A e 3). Por fim, número cada espaço de bit da direita
+para esquerda, começando com 1. Como cada um são 4 bits, cada espaço reservado começará com 1 e terminará com 8. Similar a conversão de Decimal para binário.
+Ex:
+
+Hexa:    4               A               3
+      8 4 2 1         8 4 2 1         8 4 2 1
+Bin:  0 1 0 0         1 0 1 0         0 0 1 1
+
+Como chegamos ao valor do Binário? Simples:
+- Na primeira seção (onde ta o 4), somamos as potências de 2 que iram dar o valor 4.
+Como 4 já um potência, não precisa somar nenhum outro valor. Nesse caso, só o valor 4
+vai ficar com o bit ligado, dando o valor em biário para 0100. 
+- Na segunda seção, é a mesma coisa. O A está em hexadecimal, temos que converter para decimal.
+o seu valor em Decimal é 10. Somando as potências 8 e 2, da 10. No fim, o binário é: 1010.
+-  O mesmo se repete na última seção. Sendo 2 + 1, igual a 3. Ficando assim, o binário 0011.
+
+Pratique no caderno... Exemplo de Hexadecimal F19h (o h é representação de Hexadecimal).
+

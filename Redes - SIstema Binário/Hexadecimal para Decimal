@@ -1,0 +1,25 @@
+# Hexadecimal para Binário
+
+- Bem, de Hexa para Decimal, a formula é bastante parecida com Hexa para Bin. A diferença é que, 
+em vez de potências de 2, teremos potências de 16.
+
+Ex: 2C9
+Potência de 16        256  16  1
+Hexadecimal           2    C   9
+
+Po rúltimo, você deve multiplicar cada potência, com seu respectivo algarismo 
+Lembrete: No caso de haver letras, como o C a cima, multiplique pelo valor decimal que lhe representa.
+
+1 x 9 = 9
+
+16 x 12 = 192
+
+256 x 2 = 512
+
+Por fim, some todos os valores resultantes das multiplicações. 
+
+9 + 192 + 512 = 713
+
+Então, 713 é o valor correspondente ao Hexadecimal 2C9
+
+Pratique mais no caderno.
