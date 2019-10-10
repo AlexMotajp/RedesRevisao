@@ -1,0 +1,30 @@
+# Ordenação Binário
+
+- É sabido já, que as casas binárias aumentam da direita pra esquerda.
+
+Em ex:
+    128 64 32 16 8 4 2 1
+    1    0  1 0  1 1 0 0
+
+    Isso significa que, o primeiro bit a direita, é o menos importante. Ele pode ser expresso como lsb
+    Já o bit mais a esquerda, é o bit mais importante, podendo ser expressado como msb. 
+
+- os bits podem ser numerados da direita pra esquerda, ou vice-versa.
+Na eletrônica digital, se ordena da direita para esquerda, sendo representado pela letra b.
+
+Ordenando da seguinte forma: 
+                                1  0  1  0  1  1  0  0
+                                b7 b6 b5 b4 b3 b2 b1 b0
+Chamando também essa ordenação de lbs0! (Eletrônica Digital)
+
+- Já em redes de computadores, é usado da esquerda pra direita. Começando do mais significativo até o menos.
+
+Ordenando da seguiten forma:
+
+                            b0 b1 b2 b3 b4 b5 b6 b7 
+                            1  0  1  0  1  1  0  0
+
+Nesse sistema, temos o termo msb0! (TCP/IP)
+
+3 Vale destacar que as potências, em ambos os casos, aumentam da direita pra esquerda, independente do sistema usado (seja msb0 ou lsb0).
+
