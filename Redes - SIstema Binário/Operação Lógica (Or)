@@ -1,0 +1,40 @@
+# Operações Lógicas Or, Ou 
+
+A | B   | Y (A OR B)
+0   0          0
+0   1          1
+1   0          1
+1   1          1
+
+* Nesse caso, diferente dos AND, temos uma disjunção. Se alguma das condições for positiva, o resultado será positivo. 
+
+
+Teste de Comparação com bits:
+
+                            11000110 
+                               AND
+                            10100011
+                                =
+                            11100111  (resultado) 
+
+Ou seja, o resultado 0 só sera satisfeito quando as duas condições forem 0 OR 0 = 0.
+
+* NOR. Diferente da OR, aqui temos a negação (similar em conceito a o NAND).
+
+A | B   | Y (A OR B)
+0   0          1
+0   1          0
+1   0          0
+1   1          0
+
+
+Teste de Comparação com bits:
+
+                            11000110 
+                               AND
+                            10100011
+                                =
+                            00011000  (resultado) 
+
+Ou seja, apenas no caso onde 0 NOR 0 foi satisfeito, é que o resultado foi 1, sendo positivo e contrapondo o OR.
+

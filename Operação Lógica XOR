@@ -1,0 +1,23 @@
+# Operação Lógica XOR (Exclusiva)
+
+Similar ao OR, ele também representa a soma de dois bits, contudo, o carry é levado em consideração. Nesse sentido, o 1 XOR 1 não será 1
+e sim 0.
+
+
+A | B   | Y (A XOR B)
+0   0          0
+0   1          1
+1   0          1
+1   1          0
+
+Ou seja, quando os dois bits forem iguais, o resultado será 0, e quando forem diferentes será 1.
+
+
+Teste de Comparação com bits:
+
+                            11000110 
+                               AND
+                            10100011
+                                =
+                            01100101  (resultado)  
+

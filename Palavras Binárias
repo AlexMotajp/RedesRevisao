@@ -1,0 +1,16 @@
+# Palavras Binárias
+
+Nome        | Número de Bits   |   Variações    |
+Nibble             4 Bits           2^4 = 16
+Byte               8 Bits           2^8 = 256
+Word               16 Bits          2^16 = 65.536
+Double Word        32 Bits          2^32 = 4.294.967.296
+Quad Word          64 Bits          2^64 = 18.446.744.073.709.551.616
+
+
+* Perceba o tamanho dos blocos binários, ou seja, os agrupamentos. Sendo o agrupamento mais comum de Byte (com 8 bits), não atoa... O tamanho de um arquivo no Windows
+é dado em Bytes.
+
+ - Lembrete: Para diferenciar bit de Byte, coloque o bit com b minusculo e Byte com B maiusculo.
+
+

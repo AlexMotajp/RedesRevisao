@@ -1,0 +1,68 @@
+# Operações Lógicas (AND e NAND)
+
+- É interessante aprender essas operações, para que em situações onde no futuro precise trabalhar com bits em redes, você
+necessitará desse know how, para aplicar em determinados problemas.
+
+* Tabela Verdade do AND (E):
+
+A | B   | Y (A AND B)
+0   0          0
+0   1          0
+1   0          0
+1   1          1
+
+# Procure as representações gráfica (tanto no padrão americano quanto no IEC)
+
+Teste de Comparação com bits:
+
+                            11000110 
+                               AND
+                            10100011
+                                =
+                            10000010  (resultado)          
+
+- Em redes, as vezes precisamos extrair bits de umma palavra binária. (técnica mascara)
+
+Ex:
+    Vamos extrair os 4 bits menos significativos de uma palavra binária de 8 bits
+
+                    b0 b1 b2 b3 b4 b5 b6 b7
+
+Fazer isso, usando uma mascara e usando o AND. A mascara é 00001111 (os bits ligados)
+
+                    b0 b1 b2 b3 b4 b5 b6 b7
+                    0  0  0  0  1  1  1  1
+                                =
+                    0  0  0  0  b4 b5 b6 b7 
+
+Onde na mascara tiver 0, o resultado vai ser 0. No fica o 1, o resultado vai ser 1.
+
+Exemplo prático:
+
+            Binário:    11000110
+                          AND
+            Mascara:    00001111
+                            =
+            Resultado:  00000110
+
+* Tabela Verdade NAND. o NAND, é o NOT AND.
+
+A | B   | Y (A NAND B)
+0   0          1
+0   1          1
+1   0          1
+1   1          0
+
+Sendo o Inverso a Negação do AND, ficaria dessa forma:
+
+
+Exemplo Prático NAND:
+
+        Binário:   11000110
+                     NAND
+        Mascara:   00001111
+
+        Resultado: 11111001
+
+Perceba que o NAND se contrapõe ao AND. Enquanto que o AND só sai resultado 1 quando a condição 1 AND 1 é satisfeita, o NAND é justamente o oposto. Todas as condições
+que não se enquadram em 1 NAND 1, terão resultados 1, enquanto que 1 NAND 1 Será 0. 
